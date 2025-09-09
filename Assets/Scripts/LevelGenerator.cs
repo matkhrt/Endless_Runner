@@ -20,8 +20,8 @@ public class LevelGenerator : MonoBehaviour
 
     void Update()
     {
-        DeletePlatform();
         GeneratePlatform();
+        DeletePlatform();
     }
 
     private void GeneratePlatform()
