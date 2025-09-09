@@ -47,7 +47,7 @@ public class LevelGenerator : MonoBehaviour
         {
             Transform partToDelete = transform.GetChild(0);
 
-            if(Vector2.Distance(_player.transform.position,partToDelete.transform.position) > _distanceToDelete) 
+            if (Vector2.Distance(_player.transform.position, partToDelete.transform.position) > _distanceToDelete)
             {
                 Destroy(partToDelete.gameObject);
             }
